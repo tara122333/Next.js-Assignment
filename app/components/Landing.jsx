@@ -1,6 +1,7 @@
 import React from 'react'
 import { GoDatabase } from 'react-icons/go';
 import SectionCards from './SectionCards';
+import Support from './Suppoert';
 
 const Landing = () => {
     return (
@@ -118,6 +119,12 @@ const Landing = () => {
                 </div>
                 <div>
                     <SectionCards />
+                </div>
+                <div>
+                    <Support />
+                </div>
+                <div className='w-full flex justify-center items-center'>
+                    <span className='text-center'>Copyright © 2023 <span className='font-bold text-xl'>EXOCODE TECHNOLOGIES</span> | All rights reserved</span>
                 </div>
             </div>
         </div>
