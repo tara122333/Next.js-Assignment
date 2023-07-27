@@ -21,7 +21,7 @@ const Landing = () => {
         <DailogBox isOpen={open} setIsOpen={setOpen} email={email} />
             <div className='h-full w-full bg-black px-20 container'>
                 <div className="flex items-center justify-between px-8 bg-black border-b border-gray-400">
-                    <img src={'https://s3-alpha-sig.figma.com/img/53d4/547a/704a651de983ad2433717f3165fc0e4d?Expires=1691366400&Signature=Xfn-eW~l6-Qg~c0Yv2ewjIz34Nq8lI~XOg4ieEsfVGlij6oVlD~drJYw57XXAPiRS0QOt7YyOVA-GA4zWTgCUJnFWVOwL8ZUkFCbgxPsbPhpSY6HiSMm7dcyppYPDX8yvwg4~j6NbVd6iv-5U3dqUUwI2vWb0XCkQCthogo7zn5ZanGgQEENY0SfY3z0Ymz6LUVpipXZ99zJQhdmuuaUoDyIIgNhxmcXEdFg1D1KEGwdU0-Yuwg~TbBzyzQD8jWGNTHFS5cbu7N79Zhrai22e06a32a2rU7-LL28v~oS-hMXZhjj-mOblZEfw-RKeaub1ccdKV1VeBvXEpcBwklh~w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'}
+                    <img src="https://s3-alpha-sig.figma.com/img/53d4/547a/704a651de983ad2433717f3165fc0e4d?Expires=1691366400&Signature=Xfn-eW~l6-Qg~c0Yv2ewjIz34Nq8lI~XOg4ieEsfVGlij6oVlD~drJYw57XXAPiRS0QOt7YyOVA-GA4zWTgCUJnFWVOwL8ZUkFCbgxPsbPhpSY6HiSMm7dcyppYPDX8yvwg4~j6NbVd6iv-5U3dqUUwI2vWb0XCkQCthogo7zn5ZanGgQEENY0SfY3z0Ymz6LUVpipXZ99zJQhdmuuaUoDyIIgNhxmcXEdFg1D1KEGwdU0-Yuwg~TbBzyzQD8jWGNTHFS5cbu7N79Zhrai22e06a32a2rU7-LL28v~oS-hMXZhjj-mOblZEfw-RKeaub1ccdKV1VeBvXEpcBwklh~w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
                         alt='logo'
                         className='h-[90px] w-[90px]' />
                     <div className='rounded-full w-[160px] h-[60px] text-white border border-white flex items-center justify-center text-xl px-4 cursor-pointer'>
