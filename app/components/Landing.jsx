@@ -1,4 +1,6 @@
 import React from 'react'
+import { GoDatabase } from 'react-icons/go';
+import SectionCards from './SectionCards';
 
 const Landing = () => {
     return (
@@ -22,15 +24,15 @@ const Landing = () => {
                     Make processes where AI collaborates with your team throughout the whole development process.
                 </div>
                 <div className='w-1/3 m-auto my-4 rounded-full text-white'>
-                    <div className= ' relative -top-1 left-0 flex items-center justify-between p-1 px-3 rounded-full bg-clip-border w-full h-16 my-8 bg-gradient-to-r from-[#FF3BFF] from-0% via-[#ECBFBF] via-38.02% to-[#5C24FF] to-100% border-transparent'>
+                    <div className=' relative -top-1 left-0 flex items-center justify-between p-1 px-3 rounded-full bg-clip-border w-full h-16 my-8 bg-gradient-to-r from-[#FF3BFF] from-0% via-[#ECBFBF] via-38.02% to-[#5C24FF] to-100% border-transparent'>
                     </div>
                     <div className='relative -top-24 left-0 px-1 rounded-full'>
-                    <div className='flex w-full h-14 items-center justify-between p-1 px-3 rounded-full  bg-black'>
-                        <input type='email'
-                            placeholder='Your Email'
-                            className='placeholder-gray-500  px-2 outline-none bg-transparent' />
-                        <div className='border p-2 text-sm border-white rounded-full text-gray-200'>JOIN WAITLIST</div>
-                    </div>
+                        <div className='flex w-full h-14 items-center justify-between p-1 px-3 rounded-full  bg-black '>
+                            <input type='email'
+                                placeholder='Your Email'
+                                className='placeholder-gray-500  px-2 outline-none bg-transparent' />
+                            <div className='border p-2 text-sm border-white rounded-full text-gray-200 cursor-pointer'>JOIN WAITLIST</div>
+                        </div>
                     </div>
                 </div>
                 <div className='h-full w-full relative'>
@@ -76,10 +78,46 @@ const Landing = () => {
                 <div className='text-center m-auto w-[60%] my-2 text-lg'>
                     With AI-driven test case generation and code analysis, problems may be found and fixed more quickly.
                 </div>
-                <div className='flex flex-col p-2 bg-[#181924] w-full h-full'>
-                    <div>
-                        <p>CI/CD Pipeline Generate</p>
+                <div className='flex'>
+                    {/* Motion frame */}
+                    <div className='flex flex-col p-[32px]  w-full h-full'>
+                        <div className='bg-[#181924] p-[32px] w-96 rounded-xl'>
+                            <div className='flex border-b pb-4 gap-5 border-gray-600'>
+                                <div className='h-10 w-10'>
+                                    <GoDatabase className='w-full font-thin h-full text-[#E862FE]' />
+                                </div>
+                                <span>CI/CD Pipeline Generate</span>
+                            </div>
+                            <div className='flex pt-4 gap-5'>
+                                <div className='h-10 w-10'>
+                                    <GoDatabase className='w-full h-full text-[#7534FF]' />
+                                </div>
+                                <span>Build / Deployment</span>
+                            </div>
+                        </div>
                     </div>
+                    <div>
+                        Motion
+                    </div>
+                    <div className='flex flex-col p-[32px]  w-full h-full'>
+                        <div className='bg-[#181924] p-[32px] w-96 rounded-xl'>
+                            <div className='flex border-b pb-4 gap-5 border-gray-600'>
+                                <div className='h-10 w-10'>
+                                    <GoDatabase className='w-full font-thin h-full text-[#E862FE]' />
+                                </div>
+                                <span>Generate Test Cases </span>
+                            </div>
+                            <div className='flex pt-4 gap-5'>
+                                <div className='h-10 w-10'>
+                                    <GoDatabase className='w-full h-full text-[#7534FF]' />
+                                </div>
+                                <span>Code Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <SectionCards />
                 </div>
             </div>
         </div>
